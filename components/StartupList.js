@@ -1,3 +1,5 @@
+// components/StartupList.js
+
 import StartupCard from './StartupCard';
 
 const StartupList = ({ startups }) => {

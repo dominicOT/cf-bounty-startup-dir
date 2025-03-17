@@ -1,3 +1,5 @@
+// utils/db.js
+
 export const getAllStartups = () => {
     return [
       {

@@ -1,3 +1,5 @@
+// pages/startup/[id].js
+
 import { useRouter } from 'next/router';
 import { getStartupById } from '../../utils/db';
 import Header from '../../components/Header';
