@@ -8,7 +8,7 @@ const HomePage = ({ startups }) => {
     <div style={homePageStyles}>
       <Header />
       <div style={contentStyles}>
-        <h1>Welcome to Freetown Startups Directory</h1>
+        <h1 style={titleStyles}>Welcome to Freetown Startups Directory</h1>
         <StartupList startups={startups} />
       </div>
       <Footer />
@@ -22,6 +22,8 @@ const homePageStyles = {
   padding: 0,
   backgroundColor: '#f4f4f9',
   minHeight: '100vh',
+  position: 'relative',
+  paddingBottom: '60px', // Ensure footer is visible
 };
 
 const contentStyles = {
@@ -29,6 +31,12 @@ const contentStyles = {
   margin: '0 auto',
   padding: '20px',
   textAlign: 'center',
+};
+
+const titleStyles = {
+  fontSize: '2.5em',
+  margin: '20px 0',
+  color: '#333',
 };
 
 export async function getStaticProps() {
