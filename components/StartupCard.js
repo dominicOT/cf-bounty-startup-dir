@@ -1,3 +1,5 @@
+// components/StartupCard.js
+
 import Link from 'next/link';
 
 const StartupCard = ({ startup }) => {

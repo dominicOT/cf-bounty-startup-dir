@@ -1,3 +1,5 @@
+// pages/admin/add-startup.js
+
 import { useState } from "react";
 
 export default function AddStartup() {

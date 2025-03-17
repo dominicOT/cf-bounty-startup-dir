@@ -1,3 +1,5 @@
+// page/index.js
+
 import StartupList from '../components/StartupList';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
