@@ -26,8 +26,26 @@ export const getAllStartups = () => {
         services: 'Fast Delivery Service',
         contact: '+232 78039048',
         operatingHours: 'All round the clock',
-        imageUrl: '/sendme.jpg',
-        reviews: ['Awesome Interface!', 'Easy ticketing.'],
+        imageUrl: '/sendme.jpeg',
+        reviews: ['On time delivery!', 'Affordable price.'],
+      },
+      {
+        id: '4',
+        name: 'Mocha',
+        services: 'Traditional Mobile, Modern Money',
+        contact: '+232 75 841351',
+        operatingHours: 'All round the clock',
+        imageUrl: '/mocha.jpg',
+        reviews: ['On time delivery!', 'Affordable price.'],
+      },
+      {
+        id: '5',
+        name: 'DORB AI',
+        services: 'Maximizing Worskpace Productivity',
+        contact: '+232 80 174187',
+        operatingHours: 'All round the clock',
+        imageUrl: '/logo.png',
+        reviews: ['Efficient Automation', 'Productivity boosting.'],
       },
     ];
   };
