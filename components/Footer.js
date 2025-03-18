@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <footer style={footerStyles}>
-      <p>&copy; 2025 Startups Dir</p>
+      <p>&copy; 2025 Sierra Leone Startups Directory</p>
     </footer>
   );
 };

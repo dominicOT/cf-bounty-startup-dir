@@ -23,10 +23,10 @@ export const getAllStartups = () => {
       {
         id: '3',
         name: 'SendMe',
-        services: 'Delivery Service',
-        contact: '+232 78814080',
+        services: 'Fast Delivery Service',
+        contact: '+232 78039048',
         operatingHours: 'All round the clock',
-        imageUrl: '/lyv.jpg',
+        imageUrl: '/sendme.jpg',
         reviews: ['Awesome Interface!', 'Easy ticketing.'],
       },
     ];
